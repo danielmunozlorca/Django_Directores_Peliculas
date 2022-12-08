@@ -1,0 +1,16 @@
+{% extends "base_generic.html" %} 
+
+{% block content %}
+<h1>Directores&Peliculas </h1>
+
+    <p> Bienvenidos a <em> Directores&Peliculas</em>, un lugar donde podrá encontrar su film favorito</p>
+    
+<h2> Nuestra Cartelera </h2>
+
+    <p> Recuento de cartelera disponible: </p>
+    <ul>
+        <li><strong>Películas:</strong>{{num_Peliculas}}</li>
+        <li><strong>Directores:</strong>{{num_Directores}}</li>
+<ul>
+
+{% endblock %}

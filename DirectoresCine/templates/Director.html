@@ -1,0 +1,16 @@
+{% extends 'base_generic2.html' %}
+
+{% block content %}
+
+<h1>Director</h1>
+
+{% for dires in Direct %}
+
+<article>
+    <h1>{{dires.Nombre}}</h1>
+    <p>{{dires.FechaNacimiento}}</p>
+</article>
+
+{% endfor %}
+
+{% endblock %}

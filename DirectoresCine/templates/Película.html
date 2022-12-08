@@ -1,0 +1,16 @@
+{% extends 'base_generic3.html' %}
+
+{% block content %}
+
+<h1>Película</h1>
+
+{% for peli in Pelis %}
+
+<article>
+    <h1>{{peli.Título}}</h1>
+    <p>{{peli.AñoLanzamiento}}</p>
+</article>
+
+{% endfor %}
+
+{% endblock %}
